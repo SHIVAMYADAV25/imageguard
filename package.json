@@ -1,0 +1,38 @@
+{
+  "name": "imageguard-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ImageGuard discovery engine: image + text in, exact / similar / possible-deepfake matches (with website) out.",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "models": "bash scripts/download-models.sh all",
+    "testdata": "tsx scripts/download-testdata.ts",
+    "step1": "tsx scripts/step1-fingerprint-test.ts",
+    "variants": "tsx scripts/gen-variants.ts",
+    "search": "tsx src/cli.ts",
+    "eval": "tsx src/eval/harness.ts",
+    "crawl": "tsx scripts/crawl.ts",
+    "index:folder": "tsx scripts/index-folder.ts",
+    "api": "tsx src/api.ts",
+    "case": "tsx src/casecli.ts",
+    "demo": "tsx scripts/demo-case.ts",
+    "faces": "tsx scripts/check-faces.ts",
+    "testpack": "tsx scripts/make-testpack.ts",
+    "platform": "tsx scripts/platform-demo.ts"
+  },
+  "dependencies": {
+    "@fastify/multipart": "^9.0.0",
+    "@gutenye/ocr-node": "^1.4.9",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0",
+    "onnxruntime-node": "^1.20.0",
+    "robots-parser": "^3.0.1",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+models/*.onnx
+models/*.zip
+data/blobs/
+data/index/
+data/reports/
+testdata/originals/*
+testdata/distractors/*
+!testdata/**/.gitkeep
+data/cases/*
+data/moderation/*
+testdata/pack/
+testdata/out/
+testdata/variants/
+!data/**/.gitkeep

@@ -1,0 +1,117 @@
+# ImageGuard own-index seed list: 100 public, permission-friendly starting points.
+# Open-licence / public-domain image libraries, museum open-access collections, and
+# government / science archives. NO adult, "leak", or login-walled sites are listed on purpose:
+# adult-site coverage comes from the reverse-image providers, not from our crawler.
+# robots.txt is enforced at crawl time: any entry a site disallows is skipped and logged.
+# Some URLs may move or 404 over time; the crawler just logs and continues.
+# Format: one URL per line, '#' starts a comment.
+
+# --- Open-licence stock photography (1-35) ---
+https://unsplash.com/
+https://unsplash.com/t/people
+https://unsplash.com/t/street-photography
+https://unsplash.com/t/travel
+https://unsplash.com/t/nature
+https://unsplash.com/t/architecture-interior
+https://unsplash.com/s/photos/portrait
+https://www.pexels.com/
+https://www.pexels.com/discover/
+https://www.pexels.com/search/portrait/
+https://www.pexels.com/search/people/
+https://pixabay.com/
+https://pixabay.com/images/search/portrait/
+https://pixabay.com/images/search/street/
+https://stocksnap.io/
+https://stocksnap.io/popular
+https://burst.shopify.com/
+https://kaboompics.com/
+https://gratisography.com/
+https://picjumbo.com/
+https://reshot.com/
+https://www.lifeofpix.com/
+https://isorepublic.com/
+https://negativespace.co/
+https://barnimages.com/
+https://www.foodiesfeed.com/
+https://skitterphoto.com/
+https://libreshot.com/
+https://www.publicdomainpictures.net/
+https://pikwizard.com/
+https://morguefile.com/
+https://nappy.co/
+https://picography.co/
+https://pxhere.com/
+https://stockvault.net/
+
+# --- Aggregators of open media (36-39) ---
+https://www.rawpixel.com/public-domain
+https://www.flickr.com/commons
+https://openverse.org/
+https://freerangestock.com/
+
+# --- Wikimedia / Wikipedia (40-52) ---
+https://commons.wikimedia.org/wiki/Main_Page
+https://commons.wikimedia.org/wiki/Commons:Featured_pictures
+https://commons.wikimedia.org/wiki/Commons:Picture_of_the_Day
+https://commons.wikimedia.org/wiki/Commons:Quality_images
+https://commons.wikimedia.org/wiki/Category:Portrait_photographs
+https://commons.wikimedia.org/wiki/Category:Portrait_photographs_of_men
+https://commons.wikimedia.org/wiki/Category:Portrait_photographs_of_women
+https://commons.wikimedia.org/wiki/Category:Featured_pictures_on_Wikimedia_Commons
+https://commons.wikimedia.org/wiki/Category:Street_photography
+https://commons.wikimedia.org/wiki/Category:Selfies
+https://en.wikipedia.org/wiki/Main_Page
+https://en.wikipedia.org/wiki/Wikipedia:Featured_pictures
+https://en.wikivoyage.org/wiki/Main_Page
+
+# --- Museum and library open-access collections (53-77) ---
+https://www.metmuseum.org/art/collection
+https://www.rijksmuseum.nl/en/rijksstudio
+https://www.si.edu/openaccess
+https://www.nga.gov/open-access-images.html
+https://www.artic.edu/collection
+https://www.clevelandart.org/art/collection/search
+https://www.getty.edu/art/collection/
+https://artgallery.yale.edu/collection
+https://harvardartmuseums.org/collections
+https://www.europeana.eu/en
+https://wellcomecollection.org/collections
+https://www.loc.gov/pictures/
+https://digitalcollections.nypl.org/
+https://dp.la/
+https://archive.org/details/image
+https://www.biodiversitylibrary.org/
+https://www.britishmuseum.org/collection
+https://collections.louvre.fr/en/
+https://www.tate.org.uk/art/artworks
+https://collection.cooperhewitt.org/
+https://www.nationalgallery.org.uk/paintings
+https://www.vam.ac.uk/collections
+https://www.museumsvictoria.com.au/collections/
+https://www.nma.gov.au/explore/collection
+https://www.wikiart.org/
+
+# --- Science and government image archives (78-100) ---
+https://images.nasa.gov/
+https://www.nasa.gov/image-of-the-day/
+https://www.nasa.gov/gallery/
+https://www.jpl.nasa.gov/images
+https://earthobservatory.nasa.gov/images
+https://www.esa.int/ESA_Multimedia/Images
+https://www.eso.org/public/images/
+https://esahubble.org/images/
+https://webbtelescope.org/resource-gallery/images
+https://photolib.noaa.gov/
+https://www.usgs.gov/products/multimedia-gallery
+https://www.nps.gov/media/photo/
+https://digitalmedia.fws.gov/
+https://www.geograph.org.uk/
+https://www.dvidshub.net/
+https://www.fema.gov/media-library
+https://phil.cdc.gov/
+https://catalog.archives.gov/
+https://www.noaa.gov/media-resources
+https://oceanservice.noaa.gov/gallery/
+https://www.nasa.gov/missions/
+https://science.nasa.gov/gallery/
+https://apod.nasa.gov/apod/astropix.html

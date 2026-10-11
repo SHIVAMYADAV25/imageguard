@@ -1,0 +1,22 @@
+{
+  "_comment": "domain -> where to report. URLs are STARTING POINTS and must be re-verified before production use; platforms move these pages often.",
+  "entries": [
+    { "domains": ["google.com", "google.co.in", "google.co.uk"], "name": "Google Search", "reportUrl": "https://support.google.com/websearch/answer/9116649", "notes": "Removal of non-consensual explicit / involuntary fake imagery from Search results." },
+    { "domains": ["facebook.com", "fb.com"], "name": "Facebook (Meta)", "reportUrl": "https://www.facebook.com/help/", "notes": "Report the post/profile in-app first; search the Help Center for 'intimate images'. Also use StopNCII." },
+    { "domains": ["instagram.com"], "name": "Instagram (Meta)", "reportUrl": "https://help.instagram.com/", "notes": "Use in-app 'Report' on the post/profile; also StopNCII." },
+    { "domains": ["tiktok.com"], "name": "TikTok", "reportUrl": "https://www.tiktok.com/legal/report/feedback", "notes": "In-app report is fastest; the web form is the fallback." },
+    { "domains": ["x.com", "twitter.com"], "name": "X (Twitter)", "reportUrl": "https://help.x.com/", "notes": "Report the post; use the sensitive-media / non-consensual nudity form from the Help Center." },
+    { "domains": ["reddit.com", "redd.it"], "name": "Reddit", "reportUrl": "https://www.reddit.com/report", "notes": "Choose 'involuntary pornography' as the reason." },
+    { "domains": ["pornhub.com"], "name": "Pornhub (Aylo)", "reportUrl": "https://help.pornhub.com/hc/en-us", "notes": "Use the content-removal / non-consensual content request from the Help Center." },
+    { "domains": ["xvideos.com", "xnxx.com"], "name": "XVideos / XNXX", "notes": "Use the 'Content removal' / 'Report' link in the site footer; if none works, contact the hosting provider (see abuse lookup)." },
+    { "domains": ["telegram.org", "t.me"], "name": "Telegram", "reportUrl": "https://telegram.org/support", "notes": "Email abuse@telegram.org with the message links." },
+    { "domains": ["imgur.com"], "name": "Imgur", "reportUrl": "https://help.imgur.com/", "notes": "Use the report link on the post." },
+    { "domains": ["pinterest.com"], "name": "Pinterest", "reportUrl": "https://help.pinterest.com/", "notes": "Report the Pin from the ... menu." },
+    { "domains": ["youtube.com", "youtu.be"], "name": "YouTube", "reportUrl": "https://support.google.com/youtube/answer/142443", "notes": "Report the video, or use the privacy-complaint process." },
+    { "domains": ["wikimedia.org", "wikipedia.org"], "name": "Wikimedia", "reportUrl": "https://commons.wikimedia.org/wiki/Commons:Deletion_requests", "notes": "Request deletion or contact Wikimedia Trust & Safety." }
+  ],
+  "fallback": {
+    "name": "Unknown site",
+    "notes": "1) Look for 'Report / DMCA / Content removal' in the footer. 2) Find the host with a WHOIS / hosting lookup and email its abuse contact. 3) Ask Google to de-list the URL from Search."
+  }
+}
